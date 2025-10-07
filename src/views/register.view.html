@@ -1,0 +1,49 @@
+<h2>Preencha para se cadastrar:</h2>
+<hr>
+
+<form action="#" method="POST" id="register-form">
+  <div class="form-inputs">
+    <div class="form-inputs-ajust">
+      <label for="name">Nome Completo:</label>
+      <input type="text" id="name" name="name" placeholder="Ex: Breno Sampaio" required>
+      <small class="error-text" id="name-error"></small>
+    </div>
+  </div>
+
+  <div class="form-inputs">
+    <div class="form-inputs-ajust">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Ex: nome@gmail.com" required>
+      <small class="error-text" id="email-error"></small>
+    </div>
+  </div>
+
+  <div class="form-inputs">
+    <div class="form-inputs-ajust">
+      <label for="pass">Senha:</label>
+      <div class="password-field">
+        <input
+          type="password"
+          id="pass"
+          name="password"
+          placeholder="Ex: wmd@oeh92823"
+          pattern="^(?=.*[A-Za-z])(?=.*\d).{8,}$"
+          title="Mínimo 8 caracteres, com pelo menos 1 letra e 1 número."
+          required
+        >
+
+        <button type="button" class="eye-btn" aria-label="Mostrar/ocultar senha" aria-pressed="false">
+          <i class="ph ph-eye-slash icon-closed" aria-hidden="true"></i>
+          <i class="ph ph-eye icon-open" aria-hidden="true"></i>
+        </button>
+      </div>
+
+      <small class="error-text" id="pass-error"></small>
+    </div>
+  </div>
+
+  <!-- para receber ?ref=XYZ na inscrição, sem alterar o layout -->
+  <input type="hidden" id="ref" name="ref" value="">
+
+  <button type="submit">Cadastrar</button>
+</form>
