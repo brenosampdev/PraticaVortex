@@ -78,8 +78,8 @@ npm install --save-dev nodemon
 
 ### 1️⃣ Clonar o repositório
 ```bash
-git clone https://github.com/brenosampdev/pratica-vortex.git
-cd pratica-vortex
+git clone https://github.com/brenosampdev/PraticaVortex.git
+cd PraticaVortex
 ```
 
 ### 2️⃣ Configurar o Back-end
