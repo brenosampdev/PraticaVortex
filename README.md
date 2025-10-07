@@ -12,10 +12,9 @@ Ele consiste em uma aplicação web com **autenticação de usuários**, **códi
 - ✅ **Login com autenticação**, armazenando a sessão localmente.  
 - ✅ **Dashboard protegido**, acessível apenas a usuários logados.  
 - ✅ **Validação da sessão** via `/me` no back-end, prevenindo loops de redirecionamento.  
-- ✅ **SPA com hash routing**, permitindo navegação entre Login, Cadastro e Dashboard sem recarregar a página.  
-- ✅ **Botão de Logout dinâmico** no header, que substitui os botões de login/cadastro quando autenticado.  
+- ✅ **SPA**, permitindo navegação entre Login, Cadastro e Dashboard sem recarregar a página.  
 - ✅ **Cópia do link de indicação** direto no dashboard com clique no ícone.  
-- ✅ **Interface estilizada** com campos responsivos e botão de exibir/ocultar senha.
+- ✅ **Interface estilizada** com campos responsivos focando na experiêcia do usuário.
 
 ---
 
@@ -57,8 +56,8 @@ pratica-vortex/
 
 ### 📌 Por que essas tecnologias?
 
-- **Node + SQLite** → simples, leve e não exige servidor externo para rodar.  
-- **Vanilla JS + SPA** → ideal para treinar fundamentos sem frameworks.  
+- **Node + SQLite** → simples, leve e não exige servidor externo para rodar como outros db's.  
+- **Vanilla JS + SPA** → tecnologia que estou aprendendo e tentando me aprofundar cada vez mais.  
 - **Fetch API** → nativo no navegador, sem dependências extras.  
 - **LocalStorage** → facilita simular sessões sem JWT em ambiente de prática.
 
@@ -79,7 +78,7 @@ npm install --save-dev nodemon
 
 ### 1️⃣ Clonar o repositório
 ```bash
-git clone https://github.com/SEU_USUARIO/pratica-vortex.git
+git clone https://github.com/brenosampdev/pratica-vortex.git
 cd pratica-vortex
 ```
 
@@ -148,14 +147,13 @@ Este projeto foi desenvolvido com suporte direto de **ChatGPT (GPT-5)**, que aux
 - Depuração dos fluxos de login e redirecionamento.  
 - Criação de guards de rota e prevenção de loops de sessão.  
 - Ajuste dinâmico do header com botão de Logout.  
-- Criação de README.md conforme os critérios de entrega da Vortex.  
+- Criação de README.md com todas as ajudas prestadas a mim.  
 
 ### 🧠 O que aprendi
 - Como estruturar um projeto **front + back** simples sem frameworks.  
 - Como usar **SQLite** com Node.js de forma prática.  
-- Implementar **SPA manualmente com hash routing**.  
+- Implementar **SPA**.  
 - Corrigir erros reais de fluxo de autenticação e roteamento.  
-- Gerar documentação clara e reprodutível.
 
 ---
 
