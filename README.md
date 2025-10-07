@@ -138,7 +138,23 @@ Ou use a extensão **Live Server** do VS Code.
 
 ---
 
-## 🤝 **Colaboração com IA**
+## 🦾 **Feito a mão**
+
+Front-end inteiro foi feito do zero e sem auxilio de nenhuma IA:
+
+- Efeitos de box shadow.
+- Ajuste automático de tamanho de items dentro do sistema sem a utilização de media-queries.  
+- Utilização de pseudo-classes do css (hover, focus, active e afins).  
+- Acessibilidade para todos os usuários utilizando propiedade aria-hidden.
+- Criação das páginas HTML (login.view.html, register.view.html, dashboard.view.html)
+- Estrutura dos formulários, campos de entrada e botões
+- Toda a identidade visual, cores, sombras, tipografia e espaçamentos foram definidos manualmente e com autoria própia.
+- Ajustes finos no comportamento visual de botões, inputs e responsividade.
+- Criação dos efeitos de hover, transições e botões interativos (ex: animação no hover da navegação).
+- Nenhuma biblioteca CSS externa foi usada (como Tailwind ou Bootstrap), mantendo o controle total sobre o design.
+
+---
+## 🤖 **Colaboração com IA**
 
 Este projeto foi desenvolvido com suporte direto de **ChatGPT (GPT-5)**, que auxiliou em:
 
