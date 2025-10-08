@@ -9,7 +9,7 @@
 :root {
     --background: rgb(18, 0, 58);
     --background-a-active: rgba(101,0,168,.28);
-    --black-transparent: rgba(0, 0, 0, 0.745);
+    --black-transparent: rgba(0, 0, 0, 0.451);
     --white: rgb(255, 255, 255);
     --shadow: rgb(101, 0, 168);
     --gray: rgb(128, 128, 128);
@@ -39,7 +39,7 @@ header {
 
 header h1 { 
     color: transparent;
-    -webkit-text-stroke: 0.5px var(--white);
+    -webkit-text-stroke: 0.5px white;
     text-shadow: 0px 0px 20px var(--shadow);
     grid-column: 2;
 }
@@ -114,6 +114,7 @@ hr {
 }
 
 h2 { 
+    color: var(--white);
     text-align: center;
     margin-bottom: 0.5rem; 
 }
@@ -152,6 +153,7 @@ form {
 .form-inputs .form-inputs-ajust label {
     pointer-events: none;
     text-transform: uppercase;
+    color: var(--white);
 }
 
 .form-inputs .form-inputs-ajust input {
@@ -182,6 +184,7 @@ input:focus::placeholder {
 button {
     margin-top: 1em;
     width: 100%;
+    color: var(--white);
     background-color: transparent;
     border: 1px solid var(--white);
     cursor: pointer;
@@ -247,6 +250,10 @@ button:focus-visible {
     outline: 2px solid var(--shadow); border-radius: 4px; 
 }
 
+.eye-btn i {
+    color: var(--white);
+}
+
 /* Footer */
 
 footer {
@@ -254,9 +261,13 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: var(--black-transparent);
     padding: 1rem;
     margin-top: auto;
+}
+
+footer h5  {
+    color: var(--white);
 }
 
 /* DashBoard */
@@ -273,6 +284,7 @@ footer {
 }
 
 .infos label {
+    color: var(--white);
     pointer-events: none;
 }
 
@@ -281,6 +293,10 @@ footer {
     padding: 0.5rem 0.5rem;
     border-radius: 0.2rem;
     border-bottom: 1px solid var(--white);
+}
+
+.link label {
+    color: var(--white);
 }
 
 .info-values-link {
@@ -292,7 +308,7 @@ footer {
 
 .info-values-link i {
     padding: 0.5rem;
-    transition: ease 0.5s;
+    transition: ease 0.3s;
     cursor: pointer;
     border-radius: 1rem;
 }
@@ -308,9 +324,18 @@ footer {
     justify-content: center;
 }
 
+.points label {
+    color: var(--white);
+}
+
 .points p {
+    color: var(--white);
     font-weight: 100;
     font-size: 12px;
+}
+
+.points h1 {
+    color: var(--white);
 }
 
 /* Responsividade */
