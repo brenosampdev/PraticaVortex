@@ -137,7 +137,6 @@ function attachViewBehaviors(routePath) {
     if (form && !form.dataset.bound) {
       form.dataset.bound = '1';
       form.setAttribute('action', '#');
-      console.log('[login] handler ligado');
 
       form.addEventListener('submit', async (ev) => {
         ev.preventDefault();
