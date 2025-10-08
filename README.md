@@ -143,7 +143,7 @@ Ou use a extensão **Live Server** do VS Code.
 Front-end inteiro foi feito do zero e sem auxilio de nenhuma IA:
 
 - Efeitos de box shadow.
-- Ajuste automático de tamanho de items dentro do sistema sem a utilização de media-queries.  
+- Ajuste automático de tamanho de items utilizando media queries.  
 - Utilização de pseudo-classes do css (hover, focus, active e afins).  
 - Acessibilidade para todos os usuários utilizando propiedade aria-hidden.
 - Criação das páginas HTML (login.view.html, register.view.html, dashboard.view.html)
@@ -163,7 +163,7 @@ Este projeto foi desenvolvido com suporte direto de **ChatGPT (GPT-5)**, que aux
 - Depuração dos fluxos de login e redirecionamento.  
 - Criação de guards de rota e prevenção de loops de sessão.  
 - Ajuste dinâmico do header com botão de Logout.  
-- Criação de README.md com todas as ajudas prestadas a mim.  
+- Criação de README.md com todas as ajudas prestadas a mim em relação ao back-end.  
 
 ### 🧠 O que aprendi
 - Como estruturar um projeto **front + back** simples sem frameworks.  
